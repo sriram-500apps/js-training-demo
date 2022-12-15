@@ -1,3 +1,4 @@
+// Function that returns a string representing a cup of green tea
 const prepareTea = () => "greenTea";
 
 /*
@@ -19,5 +20,5 @@ const getTea = (numOfCups) => {
 const tea4TeamFCC = null;
 // Only change code above this line
 function getOutput() {
-  document.getElementById("output").innerText = getTea(40);
+  document.getElementById("output").innerText = "Print your output here";
 }

@@ -1,3 +1,4 @@
+// Function that returns a string representing a cup of green tea
 const prepareGreenTea = () => 'greenTea';
 
 // Function that returns a string representing a cup of black tea
@@ -19,14 +20,11 @@ const getTea = (prepareTea, numOfCups) => {
 };
 
 // Only change code below this line
-const tea4GreenTeamFCC= getTea(prepareGreenTea,27);
-const tea4BlackTeamFCC = getTea(prepareBlackTea,13);
+const tea4GreenTeamFCC = null;
+const tea4BlackTeamFCC = null;
 // Only change code above this line
 
-console.log(tea4GreenTeamFCC,tea4BlackTeamFCC);
-//let a=[tea4GreenTeamFCC,tea4BlackTeamFCC]
-function getOutput() {
-    document.getElementById("output1").innerHTML =tea4GreenTeamFCC;
-    document.getElementById("output2").innerHTML =tea4BlackTeamFCC;
-   
-}
+console.log(
+  tea4GreenTeamFCC,
+  tea4BlackTeamFCC
+);
